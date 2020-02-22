@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link href="reset.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <h1 id="titlehead">Web Player Music</h1>
+            <div id=menuhead>
+                <div class="optionhead">Registrarse</div>
+                <div class="optionhead">Inicio</div>
+                <div class="optionhead">Opciones</div>
+            </div>
+        </header>
+
+        <div id="mainmenu">
+            <ul style="none" id="listmenu">
+                <li class="optionmenu">Inicio</li>
+                <li class="optionmenu">Categoría</li>
+                <li class="optionmenu">Artista</li>
+                <li class="optionmenu">Listas de Reproducción</li>
+                <li class="optionmenu">Destacados</li>
+                <li class="optionmenu">Buscador</li>
+            </ul>
+        </div>
+
+        <div id="ibody">
+            <ul style="none" id="list_category">
+                <li class="sing">
+                
+                </li>
+            </ul>
+
+        </div>
+    
+        <div id="musicplayer">
+            <div class="select sing">Info</div>
+            <div id="controls">
+                <i class="button material-icons">shuffle</i>
+                <i class="button material-icons">fast_rewind</i>
+                <i class="button material-icons">play_arrow</i>
+                <i class="button material-icons">fast_forward</i>
+                <i class="button material-icons">repeat</i>
+            </div>
+            <div class="duration">
+                <p>time1</p>
+                <input type="range" min="1" max="100" class="slider">
+                <p>time2</p>
+            </div>
+            <div class="speaker">
+                <i class="button material-icons">volume_up</i>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
